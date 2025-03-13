@@ -147,6 +147,6 @@ if (pokemon.cries.legacy != null)
             drawPokemon(numero);
         } else {
             const pokemon = await searchPokemon();
-            drawPokemon(pokemon.id);
+        drawPokemon(pokemon.id);
         }
     } 
